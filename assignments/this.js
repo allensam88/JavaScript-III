@@ -19,7 +19,7 @@ function printDate(date) {
     console.log(this);
     return date;
   }
-//printDate("September 18, 2019");
+printDate("September 18, 2019");
 
 // Principle 2
 
@@ -35,7 +35,7 @@ const movieStar = {
     //   console.log(this);
     }
   };
-//movieStar.awardSummary();
+movieStar.awardSummary();
 
 // Principle 3
 
@@ -53,12 +53,12 @@ const starWars = new scifiMovie('Star Wars', 'great');
 const starTrek = new scifiMovie('Star Trek', 'fantastic');
 const transformers = new scifiMovie('Transformers', 'terrible');
 
-// starWars.statement();
-// starTrek.statement();
-// transformers.statement();
+starWars.statement();
+starTrek.statement();
+transformers.statement();
 
 // Principle 4
 
-// code example for Explicit Binding
-// starWars.statement.call(transformers);
-// starTrek.statement.apply(starWars);
+code example for Explicit Binding
+starWars.statement.call(transformers);
+starTrek.statement.apply(starWars);
