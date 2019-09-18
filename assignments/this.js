@@ -59,6 +59,6 @@ transformers.statement();
 
 // Principle 4
 
-code example for Explicit Binding
+//code example for Explicit Binding
 starWars.statement.call(transformers);
 starTrek.statement.apply(starWars);
